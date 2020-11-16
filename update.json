@@ -1,7 +1,7 @@
 {
   "homepage": "https://github.com/kurrycat2004/MpkMod/releases/",
   "1.8.9": {
-    "1.8.9": "test"
+    "v1.2.1": "- added obfuscation"
   },
   "promos": {
     "1.8.9-latest": "v1.2.1"

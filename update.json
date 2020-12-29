@@ -3,10 +3,11 @@
   "1.8.9": {
     "1.2.0": "- added obfuscation",
     "1.2.1": "- changed label system\n- added update notification\n- changed setlb command",
-    "1.2.2": "- added customisable Discord RPC Settings\n- added chat spam"
+    "1.2.2": "- added customisable Discord RPC Settings\n- added chat spam",
+    "1.2.3": "- added c4.5 Timing to hh Timer\n- added airtime label\n- added tier label\n- added ip label"
   },
   "promos": {
-    "1.8.9-latest": "1.2.2",
-    "1.8.9-recommended": "1.2.2"
+    "1.8.9-latest": "1.2.3",
+    "1.8.9-recommended": "1.2.3"
   }
 }

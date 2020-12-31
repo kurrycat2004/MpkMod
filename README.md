@@ -23,7 +23,7 @@ To use the Mod you have to download the file `mpkmod-X.X.X.jar` (or `mpkmod-X.X.
 All commands are accessible with the `/mpk` prefix.
 |Command|Syntax     |Explanation|
 |-------|-----------|-----------|
-|`help` |`/mpk help`| The most basic command that displays a list of all commands and a short explanation for each one in chat[^1]|
+|`help` |`/mpk help`| The most basic command that displays a list of all commands and a short explanation for each one in chat<sup>[1](#myfootnote1)</sup>
 |`colorlist`|`/mpk colorlist`|Sends a list of all available colors in chat|
 |`color1`|`/mpk color1 [color]`|Changes the primary UI color to the specified `color`|
 |`color1`|`/mpk color2 [color]`|Changes the secondary UI color to the specified `color`|
@@ -35,4 +35,4 @@ All commands are accessible with the `/mpk` prefix.
 |`resetgui`|`/mpk resetgui`|Resets the color, position and enabled/removed state of every label. **Warning! Doing this will clear all previously saved gui settings**|
 |`setcond`|`/mpk setcond [xmin] [xmax] [zmin] [zmax]`|Sets a landing condition|
 
-[^1]: All messages displayed in chat that have the prefix `<MPK>` are only visible to you.
+<a name="myfootnote1">1</a>: All messages displayed in chat that have the prefix `<MPK>` are only visible to you.

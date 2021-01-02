@@ -10,7 +10,7 @@ MPK Mod is a minecraft mod for 1.8.9/1.12 that adds some features for [minecraft
 ### Installation
 
 To install MPK Mod you need to have [forge](https://files.minecraftforge.net) installed.
-To use the Mod you have to download the file `mpkmod-X.X.X.jar` (or `mpkmod-X.X.X-MC1.12` for minecraft 1.12-1.12.2) and put it into your `mods` folder which is located in [`.minecraft`](https://minecraft.gamepedia.com/.minecraft).
+To use the Mod you have to download the file `mpkmod-X.X.X.jar` (or `mpkmod-X.X.X-MC1.12` for minecraft 1.12-1.12.2) from [releases](https://github.com/kurrycat2004/MpkMod/releases) and put it into your `mods` folder which is located in [`.minecraft`](https://minecraft.gamepedia.com/.minecraft).
 
 ### FAQ
 > **How do I change the UI color?**<br/>

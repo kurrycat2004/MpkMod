@@ -17,7 +17,7 @@ To use the Mod you have to download the file `mpkmod-X.X.X.jar` (or `mpkmod-X.X.
 The primary color can be changed with `/mpk color1 [color]` and the secondary one with `/mpk color2 [color]`
 
 ##### **How do I enable offset being sent in chat?**<br/>
-To enable this feature and some others you have to change the setting in the config file located at `.minecraft/config/mpkmod.cfg`. If the setting is set to `1` it means that the setting is turned on and if it's set to `0` the setting is disabled. This specific setting is named `sendOffsetInChat` and is `0` by default. After updating something in the config file you can reload it with `/mpk reloadconfig`.
+To enable this feature and some others you have to change the setting in the config file located at `.minecraft/config/mpkmod.cfg`. If the setting is set to `true` it means that the setting is turned on and if it's set to `false` the setting is disabled. This specific setting is named `sendOffsetInChat` and is `false` by default. After updating something in the config file you can reload it with `/mpk reloadconfig` or by restarting your game.
 
 ### Commands
 All commands are accessible with the `/mpk` prefix.

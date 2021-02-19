@@ -23,24 +23,24 @@ To enable this feature and some others you have to change the setting in the con
 All commands are accessible with the `/mpk` prefix.
 |Command|Syntax     |Explanation|
 |-------|-----------|-----------|
-|`help` |`/mpk help`|The most basic command that displays a list of all commands and a short explanation for each one in chat<sup>[1](#footnote1)</sup>
-|`colorlist`|`/mpk colorlist`|Sends a list of all available colors in chat|
-|`color1`|`/mpk color1 [color]`|Changes the primary UI color to the specified `color`|
-|`color1`|`/mpk color2 [color]`|Changes the secondary UI color to the specified `color`|
-|`gui`|`/mpk gui`|Opens a GUI for positioning the labels as well as disabling and removing them|
-|`df`|`/mpk df [int]`|Specifies a new coord precision value that can range between 0 (no decimals) and 16 (16 decimals)|
-|`setlb`|`/mpk setlb [(optional) x\|z\|~] [(optional) [[target]\|[x y z]]`|Sets the landing block. For example `/mpk setlb` without arguments just sets the landing block to the block you are standing on while measuring both X and Z offsets when attempting the jump. To just measure one of the X and Z offset just specify it as first argument. `/mpk setlb x` would only measure the offset on the X axis. You can also do `/mpk setlb ~` to use the axis you are currently looking as argument. To specify an other block than the one you are standing on you can do `/mpk setlb x y z` with `x`, `y` and `z` being the coordinates of the block. To specify the block you are looking at as landing block you can do `/mpk setlb target`|
+|`anticp`|`/mpk anticp`|Turns anticp on/off|
 |`clearlb`|`/mpk clearlb`|Clears the saved landing block|
 |`clearmaxspeed`|`/mpk clearmaxspeed`|Clears the Max Speed label value|
 |`clearpb`|`/mpk clearpb`|Clears the PB value|
-|`resetgui`|`/mpk resetgui`|Resets the color, position and enabled/removed state of every label. **Warning! Doing this will clear all previously saved gui settings**|
-|`setcond`|`/mpk setcond [xmin] [xmax] [zmin] [zmax]`|Sets a landing condition|
+|`color1`|`/mpk color1 [color]`|Changes the primary UI color to the specified `color`|
+|`color1`|`/mpk color2 [color]`|Changes the secondary UI color to the specified `color`|
+|`colorlist`|`/mpk colorlist`|Sends a list of all available colors in chat|
 |`config`|`/mpk config`|Opens the config GUI where mod settings can be changed|
+|`df`|`/mpk df [int]`|Specifies a new coord precision value that can range between 0 (no decimals) and 16 (16 decimals)|
+|`gui`|`/mpk gui`|Opens a GUI for positioning the labels as well as disabling and removing them|
+|`help` |`/mpk help`|The most basic command that displays a list of all commands and a short explanation for each one in chat<sup>[1](#footnote1)</sup>
 |`macro`|`/mpk macro gui\|run\|stop`|A command for opening the macro gui, running<sup>[3](#footnote3)</sup> the macro or stopping it|
 |`reloadconfig`|`/mpk reloadconfig`|Reloads the config file|
+|`resetgui`|`/mpk resetgui`|Resets the color, position and enabled/removed state of every label. **Warning! Doing this will clear all previously saved gui settings**|
+|`setcond`|`/mpk setcond [xmin] [xmax] [zmin] [zmax]`|Sets a landing condition|
+|`setlb`|`/mpk setlb [(optional) x\|z\|~] [(optional) [[target]\|[x y z]]`|Sets the landing block. For example `/mpk setlb` without arguments just sets the landing block to the block you are standing on while measuring both X and Z offsets when attempting the jump. To just measure one of the X and Z offset just specify it as first argument. `/mpk setlb x` would only measure the offset on the X axis. You can also do `/mpk setlb ~` to use the axis you are currently looking as argument. To specify an other block than the one you are standing on you can do `/mpk setlb x y z` with `x`, `y` and `z` being the coordinates of the block. To specify the block you are looking at as landing block you can do `/mpk setlb target`|
 |`timer`|`/mpk timer toggle\|reset`|Toggles or resets the Timer|
 |`toggleall`|`/mpk toggleall`|Shows/Hides all labels|
-|`anticp`|`/mpk anticp`|Turns anticp on/off|
 |`togglesprint`|`/mpk togglesprint`|Turns togglesprint on/off|
 
 <a name="footnote1">1</a>: All messages displayed in chat that have the prefix `<MPK>` are only visible to you.</br>

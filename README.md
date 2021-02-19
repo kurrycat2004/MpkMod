@@ -10,7 +10,7 @@ MPK Mod is a minecraft mod for 1.8.9/1.12 that adds some features for [minecraft
 ### Installation
 
 To install MPK Mod you need to have [forge](https://files.minecraftforge.net) installed.
-To use the Mod you have to download the file `mpkmod-X.X.X.jar` (or `mpkmod-X.X.X-MC1.12` for minecraft 1.12-1.12.2)<sup>[2](#footnote2)</sup> from [releases](https://github.com/kurrycat2004/MpkMod/releases) and put it into your `mods` folder which is located in [`.minecraft`](https://minecraft.gamepedia.com/.minecraft).
+To use the Mod you have to download the file `mpkmod-X.X.X.jar` (or `mpkmod-X.X.X-MC1.12` for minecraft 1.12-1.12.2)<sup>[1](#footnote1)</sup> from [releases](https://github.com/kurrycat2004/MpkMod/releases) and put it into your `mods` folder which is located in [`.minecraft`](https://minecraft.gamepedia.com/.minecraft).
 
 ### FAQ
 ##### **How do I change the UI color?**<br/>
@@ -33,7 +33,7 @@ All commands are accessible with the `/mpk` prefix.
 |`config`|`/mpk config`|Opens the config GUI where mod settings can be changed|
 |`df`|`/mpk df [int]`|Specifies a new coord precision value that can range between 0 (no decimals) and 16 (16 decimals)|
 |`gui`|`/mpk gui`|Opens a GUI for positioning the labels as well as disabling and removing them|
-|`help` |`/mpk help`|The most basic command that displays a list of all commands and a short explanation for each one in chat<sup>[1](#footnote1)</sup>
+|`help` |`/mpk help`|The most basic command that displays a list of all commands and a short explanation for each one in chat<sup>[2](#footnote2)</sup>
 |`macro`|`/mpk macro gui\|run\|stop`|A command for opening the macro gui, running<sup>[3](#footnote3)</sup> the macro or stopping it|
 |`reloadconfig`|`/mpk reloadconfig`|Reloads the config file|
 |`resetgui`|`/mpk resetgui`|Resets the color, position and enabled/removed state of every label. **Warning! Doing this will clear all previously saved gui settings**|
@@ -43,6 +43,6 @@ All commands are accessible with the `/mpk` prefix.
 |`toggleall`|`/mpk toggleall`|Shows/Hides all labels|
 |`togglesprint`|`/mpk togglesprint`|Turns togglesprint on/off|
 
-<a name="footnote1">1</a>: All messages displayed in chat that have the prefix `<MPK>` are only visible to you.</br>
-<a name="footnote2">2</a>: For version 1.2.5 and higher the same jar file (`mpkmod-X.X.X.jar`) can be used for 1.8 and 1.12 and therefore only one jar file can be downloaded.</br>
+<a name="footnote1">1</a>: For version 1.2.5 and higher the same jar file (`mpkmod-X.X.X.jar`) can be used for 1.8 and 1.12 and therefore only one jar file can be downloaded.</br>
+<a name="footnote2">2</a>: All messages displayed in chat that have the prefix `<MPK>` are only visible to you.</br>
 <a name="footnote3">3</a>: Macros can only be executed in SinglePlayer to prevent players from cheating on servers.

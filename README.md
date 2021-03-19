@@ -1,4 +1,5 @@
 # MPK Mod
+![Discord](https://img.shields.io/discord/819737524372504587?color=7289DA&logo=discord)
 
 MPK Mod is a minecraft mod for 1.8.9/1.12 that adds some features for [minecraft parkour](https://www.mcpk.wiki/wiki/Main_Page) to your client. It's a client side only mod, that means it can be used on any server.
 

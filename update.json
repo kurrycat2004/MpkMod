@@ -6,17 +6,19 @@
     "1.2.2": "- added customisable Discord RPC Settings\n- added chat spam",
     "1.2.3": "- added c4.5 Timing to hh Timer\n- added airtime label\n- added tier label\n- added ip label",
     "1.2.4": "- added Keystrokes\n- added speed vector label\n- added timer label\n- made numbers fixed size (if df is 6 its 1.123000 not 1.123)",
-    "1.2.5": "New Features:\n- Stepping label\n- Blip label\n- Sign setlb command\n- Togglesprint with label\n- Max Speed label\n- Enable/Disable labels in unused labels tab\n- Cancels right click event for 1.8 or switches to an empty slot in 1.12 for 1s when moving on the landing block\n\nBug fixes:\n- Fixed Tier going down by one when teleporting on ground or going up and down a stair\n- Only update Last Turning if it is not 0"
+    "1.2.5": "New Features:\n- Stepping label\n- Blip label\n- Sign setlb command\n- Togglesprint with label\n- Max Speed label\n- Enable/Disable labels in unused labels tab\n- Cancels right click event for 1.8 or switches to an empty slot in 1.12 for 1s when moving on the landing block\n\nBug fixes:\n- Fixed Tier going down by one when teleporting on ground or going up and down a stair\n- Only update Last Turning if it is not 0",
+    "1.3.0": "New Features\n- New Config\n- Vectorized Max Speed label\n- Jump Coords label\n- Jump Angle label\n- Config Setting to change number formatting\n- Date label\n- Command with keybind to interrupt running macro\n- Config setting to change the chat prefix\n- Remade Last Timing code and added burst\n- Updated /mpk help\n- Added a config setting to enable/disable Discord RPC\n- Added ms to Last Timing label\n- Added a block overlay that displays landing block and landing condition hitbox when enabled\n- Added /mpk fly\n- Added /mpk coords\n- Added /mpk record\n- Looking At label\n- Added a language file for en_US\n- Added /mpk setbox\n- Remade setlb\n- Total Offset & X/Z PB label\n- Added /mpk lb\n\nBug fixes\n- Airtime kept increasing while the game was paused\n- Nosprint hh timing was 1 tick off\n- When right clicking signs not created by users the game would crash\n- Last Timing on vines wasn't right\n- Snow layers were .125 blocks higher in 1.12 when using setlb\n- Changed control IDs (might cause a keybind reset)\n- Macro GUI was getting laggy with a high number of ticks"
   },
   "1.12": {
      "1.2.3": "- added c4.5 Timing to hh Timer\n- added airtime label\n- added tier label\n- added ip label",
      "1.2.4": "- added Keystrokes\n- added speed vector label\n- added timer label\n- made numbers fixed size (if df is 6 its 1.123000 not 1.123)",
-     "1.2.5": "New Features:\n- Stepping label\n- Blip label\n- Sign setlb command\n- Togglesprint with label\n- Max Speed label\n- Enable/Disable labels in unused labels tab\n- Cancels right click event for 1.8 or switches to an empty slot in 1.12 for 1s when moving on the landing block\n\nBug fixes:\n- Fixed Tier going down by one when teleporting on ground or going up and down a stair\n- Only update Last Turning if it is not 0"
+     "1.2.5": "New Features:\n- Stepping label\n- Blip label\n- Sign setlb command\n- Togglesprint with label\n- Max Speed label\n- Enable/Disable labels in unused labels tab\n- Cancels right click event for 1.8 or switches to an empty slot in 1.12 for 1s when moving on the landing block\n\nBug fixes:\n- Fixed Tier going down by one when teleporting on ground or going up and down a stair\n- Only update Last Turning if it is not 0",
+    "1.3.0": "New Features\n- New Config\n- Vectorized Max Speed label\n- Jump Coords label\n- Jump Angle label\n- Config Setting to change number formatting\n- Date label\n- Command with keybind to interrupt running macro\n- Config setting to change the chat prefix\n- Remade Last Timing code and added burst\n- Updated /mpk help\n- Added a config setting to enable/disable Discord RPC\n- Added ms to Last Timing label\n- Added a block overlay that displays landing block and landing condition hitbox when enabled\n- Added /mpk fly\n- Added /mpk coords\n- Added /mpk record\n- Looking At label\n- Added a language file for en_US\n- Added /mpk setbox\n- Remade setlb\n- Total Offset & X/Z PB label\n- Added /mpk lb\n\nBug fixes\n- Airtime kept increasing while the game was paused\n- Nosprint hh timing was 1 tick off\n- When right clicking signs not created by users the game would crash\n- Last Timing on vines wasn't right\n- Snow layers were .125 blocks higher in 1.12 when using setlb\n- Changed control IDs (might cause a keybind reset)\n- Macro GUI was getting laggy with a high number of ticks"
   },
   "promos": {
-    "1.8.9-latest": "1.2.5",
-    "1.8.9-recommended": "1.2.5",
-    "1.12-latest": "1.2.5",
-    "1.12-recommended": "1.2.5"
+    "1.8.9-latest": "1.3.0",
+    "1.8.9-recommended": "1.3.0",
+    "1.12-latest": "1.3.0",
+    "1.12-recommended": "1.3.0"
   }
 }

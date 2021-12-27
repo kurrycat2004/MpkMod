@@ -29,7 +29,7 @@ All commands are accessible with the `/mpk` prefix.
 |`clearmaxspeed`|`/mpk clearmaxspeed`|Clears the Max Speed label value|
 |`clearpb`|`/mpk clearpb`|Clears the PB value|
 |`color1`|`/mpk color1 [color]`|Changes the primary UI color to the specified `color`|
-|`color1`|`/mpk color2 [color]`|Changes the secondary UI color to the specified `color`|
+|`color2`|`/mpk color2 [color]`|Changes the secondary UI color to the specified `color`|
 |`colorlist`|`/mpk colorlist`|Sends a list of all available colors in chat|
 |`config`|`/mpk config`|Opens the config GUI where mod settings can be changed|
 |`df`|`/mpk df [int]`|Specifies a new coord precision value that can range between 0 (no decimals) and 16 (16 decimals)|
